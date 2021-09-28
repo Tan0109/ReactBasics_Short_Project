@@ -1,0 +1,17 @@
+.navigation{
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.navigationButton
+{
+    padding: 20px;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 12px;
+    background-color: goldenrod;
+    cursor: pointer;
+}

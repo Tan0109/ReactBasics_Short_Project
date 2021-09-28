@@ -1,0 +1,70 @@
+.container
+{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(0,0,0,0.1);
+    font-size: large;
+    padding: 30px;
+    margin:40px 40px 0px 40px;
+    border-radius: 20px;
+}
+.gridSystem
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.columnGrid
+{
+    display: flex;
+    background: rgba(0,0,0,0.3);
+    height: 200px;
+    margin:40px 40px 0px 40px;
+}
+.product
+{
+    display: inline;
+    align-items:center;
+    width: auto;
+    height: 200px;
+    cursor: pointer;
+    background: cover;
+}
+.productDetails
+{
+    font-size: large;
+    display: inline;
+    text-align: center;
+    color: rgb(22, 10, 197);
+    cursor: pointer;
+}
+.table
+{
+    margin:30px auto 0 auto;
+    width: 70%;
+    border: solid black;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+}
+.buttonProduct
+{
+    display: inline;
+    background: rgb(180, 50, 50);
+    text-align: center;
+    width: 79%;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0px 40px 0px 40px;
+    cursor: pointer;
+}
+.OrderConfirm
+{
+    font-size: larger;
+    display: inline;
+    background: rgb(18, 50, 192);
+    text-align: center;
+    width: 95%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0px 40px 0px 40px;
+    cursor: pointer;
+}
